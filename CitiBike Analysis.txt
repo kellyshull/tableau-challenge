@@ -1,0 +1,22 @@
+Kelly Shull
+16 November 2020
+
+To create the analysis first I downloaded three CSV files from the CitiBike website which contained September data for the years: 2015, 2017, and 2019, respectively.
+
+The datasets were then Unioned on top of one another in the Tableau Data Source section.
+
+
+In examining the first phenomenon that the CitiBike Program significantly expanded its area of operations, I plotted the Start Station Longitude and Latitude on the column and rows respectively.
+From here, I observed two outliers that were impossible to exist with one point (representing a station) in the middle of the Atlantic Ocean near the African coastline, and another point well into Canada, thus those points were excluded from further analysis.
+By placing color markers based on the year, I observed a significant push north in Manhatten from 2015 to 2017 which represented further accessiblity to those living North of Central Park.
+Additionally, from 2017 to 2019 the markers show a massive expansion in the neighborhood of Bushwick, Brooklyn. This indicates a growth in moving the program to service those outside Manhatten.
+
+An additional phenomenon to observe is the possible williness to disclose information to the CitiBike infrastructure. In the visualization, "Gender (Customer Type)", notice the breakdown of who makes up the "Customer" group. In 2015, it appears that no information regarding Gender preference was asked as "Other" is the only sector with data.
+By 2017, it apears that Gender preference is asked for those who want to be a "Customer" though those who identified as "Other" significantly outnumber both those who chose "Male" and "Female" by over 130,000 individuals. This may indicate either an apprehensiveness of customers to provide personal information if not explicitly necessary. 
+As those who identified as "Other" make up the majority of the "Customer" base, this may be an indication that they are tourists of the city rather than locals who may be more inclined to pay a subscription. This possibility presents itself in examining the Average Trip Duration by Gender visualization where in all three years "Other" beat out "Male" and "Female" riders by a significant margin.
+A possible reason for this is using the CitiBike program as a means of recreation rather than soley a means of transportation. 
+
+The final phenonmenon observed was the effect of human error (or human deciept) on collecting accurate data. The most interesting instance of this, was in examining the average trip duration by customer birth year, a filter was placed to show the "StopTime". Despite this data consisting of September data from 2015, 2017, and 2019, there were less than 10 instances of trips that ended in 2018 indicating a single bike was active for over 90 days straight.
+While there is a possibility of individuals using the bike for months at a time, the liklihood of this was the bikes were simply improperly locked out keeping the user active without their knowledge. This can be seen by a spike in Trip Duration times for those born in the late 1980s. 
+Human deciept additionally could be cause for data issues as observed in the "Average Birth Year of User Based on Gender" in which there were over 220,000 instances of users with a reported birth year of 1969, with over 136,000 of these instances stemming from users who reported their Gender as "Other". When "Other" is filtered out, this significant spike flatens considerably.
+
