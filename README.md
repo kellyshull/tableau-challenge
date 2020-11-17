@@ -1,4 +1,4 @@
-# tableau-challenge
+# Analysis of CitiBike Use during September of 2015, 2017, and 2019
 
 Links for accessing the necessary CSVs:
   - September 2015: https://s3.amazonaws.com/tripdata/201509-citibike-tripdata.zip
